@@ -19,7 +19,7 @@ function getQuestions() {
         let text = document.createElement("div");
         img.alt = obj[i].imgAlt;
            img.src = obj[i].imgName;
-           
+          console.log("yse")
            info.append(img)
            text.className = "text";
            let h3 = document.createElement("h3");
